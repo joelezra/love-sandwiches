@@ -1,5 +1,3 @@
-```vue
-
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -53,5 +51,4 @@ def validate_data(values):
     return True
  
 data = get_sales_data()
-
-```
+print(data)
